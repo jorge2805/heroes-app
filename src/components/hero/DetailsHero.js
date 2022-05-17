@@ -25,7 +25,7 @@ export const DetailsHero = () => {
 
   return (
     <div className='row mt-5'>
-        <div className='col-4'>
+        <div className='col-4 animate__animated animate__fadeInLeft'>
           <img 
             src={imgPath}
             alt={myHero.superhero}
@@ -33,7 +33,7 @@ export const DetailsHero = () => {
           />
         </div>
 
-        <div className='col-8'>
+        <div className='col-8 animate__animated animate__fadeIn'>
           <h3>{myHero.superhero}</h3>
           <ul className='list-group'>
             <li className='list-group-item'><b>Alter ego:</b> {myHero.alter_ego} </li>
