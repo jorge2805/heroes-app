@@ -1,7 +1,5 @@
-import React from 'react'
+import { heroes } from '../data/heroes'
 
-export const getHeroesById = () => {
-  return (
-    <div>getHeroesById</div>
-  )
+export const getHeroesById = (heroId) => {
+  return heroes.find(x => x.id === heroId);  
 }
