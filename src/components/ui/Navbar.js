@@ -7,7 +7,7 @@ import { types } from '../../types/types';
 export const Navbar = () => {
     
     const navigate = useNavigate();
-    const {dispach} = useContext(AuthContext)
+    const {user, dispach} = useContext(AuthContext)
 
     const handleLogout = () => {
         
@@ -22,7 +22,6 @@ export const Navbar = () => {
         });
     }
 
-    const {user} = useContext(AuthContext)
 
 
     return (
