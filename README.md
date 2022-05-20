@@ -5,6 +5,5 @@ Every hero has his own Details view
 You can find a filter function by Id and by Publisher
 
 ## GitHub Pages Link
-Not ready
 
-<!-- [https://jorge2805.github.io/react-gifFinder/](https://jorge2805.github.io/react-gifFinder/) -->
+[https://jorge2805.github.io/heroes-app/](https://jorge2805.github.io/heroes-app/)
