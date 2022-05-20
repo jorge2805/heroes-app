@@ -1,6 +1,8 @@
 import React, { useMemo } from 'react'
 import { Navigate, useNavigate, useParams } from 'react-router-dom'
+
 import { getHeroesById } from '../../helpers/getHeroesById';
+import { heroImgs } from '../../helpers/heroImgs';
 
 export const DetailsHero = () => {
   
@@ -19,15 +21,11 @@ export const DetailsHero = () => {
     return <Navigate to='/'/>
   }
   
-  const imgPath = `/assets/Img/${myHero.id}.jpg`;
-
-
-
   return (
     <div className='row mt-5'>
         <div className='col-4 animate__animated animate__fadeInLeft'>
           <img 
-            src={imgPath}
+            src={heroImgs(`./${myHero.id}.jpg`)}
             alt={myHero.superhero}
             className="img-thumbnail"
           />
