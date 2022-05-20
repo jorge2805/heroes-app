@@ -4,8 +4,6 @@ In this project I'm using react.js to read a JSON of heroes and then map the her
 Every hero has his own Details view
 You can find a filter function by Id and by Publisher
 
-Feel free to clone this repository, just remember get your own API Key at [https://developers.giphy.com/](https://developers.giphy.com/)
-
 ## GitHub Pages Link
 Not ready
 
